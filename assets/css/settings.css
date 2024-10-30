@@ -1,0 +1,75 @@
+div.clear{
+	clear:both;
+}
+.ultimate-container{
+	display:block;
+	width:90%;
+	max-width:900px;
+	margin:40px auto;
+}
+.master-container{
+	display:block;
+	padding:10px;
+	padding-bottom:25px;
+	background:#fff;
+	margin-top:50px;
+	box-shadow:0px 0px 5px rgba(0,0,0,.2);
+}
+.master-container h1.master-title{
+	padding-left:15px;
+	background:#fafafa;
+	border-left:1px dotted #000;
+	border-bottom:1px dotted #000;
+	padding-top:15px;
+	padding-bottom:15px;
+}
+.master-container h1.master-title span{
+	color:darkblue;
+	text-shadow:1px 1px 2px solid rgba(0,0,0,.8);
+}
+.master-container .master-content{
+	display:block;
+	padding:20px;
+	border-right:1px dotted #000;
+	border-bottom:1px dotted #000;
+	margin-top:-19px;
+	text-align:justify;
+	line-height:30px;
+	font-size:17.5px;
+}
+.master-container .master-content div.flex{
+	display:flex;
+	flex-direction:row;
+	width:100%;
+}
+.master-container .master-content div.flex div.para{
+	width:80%;
+}
+.master-container .master-content div.flex div.right{
+	width:18%;
+	margin-left:10px;
+	padding-left:15px;
+	border-left:1px dotted #000;
+}
+.master-container .master-content div.flex div.right img{
+	width:100%;
+	border-top-right-radius:10px;
+	border-bottom-right-radius:10px;
+	border-bottom-left-radius:10px;
+}
+.master-container .master-content .settings{
+	border-top:1px dotted #000;
+	margin-top:20px;
+}
+.master-container .master-content .settings .attribute{
+	padding:10px;
+	background:#fafafa;
+	margin-top:10px;
+	border-left:5px solid darkblue;
+}
+.master-container .master-content .settings .attribute span.need{
+	font-weight:bold;
+}
+.master-container .master-content .settings .attribute span.input{
+	margin-left:50px;
+}
